@@ -6,7 +6,7 @@
 /*   By: ytsyrend <ytsyrend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 12:29:07 by ytsyrend          #+#    #+#             */
-/*   Updated: 2024/09/16 16:06:03 by ytsyrend         ###   ########.fr       */
+/*   Updated: 2024/09/16 23:46:19 by ytsyrend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,11 +41,13 @@ int main()
             "10P001",
             "111111",
         };
-
+    printf(RED"test: %c"RESET_COLOR,map[0][5]);
     t_file file;
     file.map = map;
     file.player_x = 100;
     file.player_y = 100;
+    file.widthmap = 6; 
+    file.heightmap = 4;
     t_data game;
     game.file = &file;
     while(true)

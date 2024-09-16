@@ -6,7 +6,7 @@
 #    By: ytsyrend <ytsyrend@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/16 11:50:50 by ytsyrend          #+#    #+#              #
-#    Updated: 2024/09/16 12:16:34 by ytsyrend         ###   ########.fr        #
+#    Updated: 2024/09/16 22:03:17 by ytsyrend         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,7 +28,7 @@ TESTS_DIR	=	tests
 DDA 		= 	$(TESTS_DIR)/dda_tester.c
 VERT 		= 	$(TESTS_DIR)/horizontal_tester.c
 HOR 		= 	$(TESTS_DIR)/vertical_tester.c
-COMMON_SRCS =	$(SRC_DIRS)/dda.c $(SRC_DIRS)/helper.c $(SRC_DIRS)/intersections.c $(SRC_DIRS)/zero_infinity.c
+COMMON_SRCS =	$(SRC_DIRS)/dda.c $(SRC_DIRS)/helper_count.c $(SRC_DIRS)/helper.c $(SRC_DIRS)/intersections.c $(SRC_DIRS)/zero_infinity.c
 
 # Source and Object Files
 DDA_SRCS 	= 	$(COMMON_SRCS) $(DDA)

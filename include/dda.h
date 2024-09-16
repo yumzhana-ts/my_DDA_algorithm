@@ -6,7 +6,7 @@
 /*   By: ytsyrend <ytsyrend@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 12:01:08 by ytsyrend          #+#    #+#             */
-/*   Updated: 2024/09/16 13:31:05 by ytsyrend         ###   ########.fr       */
+/*   Updated: 2024/09/17 01:28:05 by ytsyrend         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,8 @@ typedef struct s_file
     char **map;
     int player_x;
     int player_y;
+    int widthmap;
+    int heightmap;
 } t_file;
 
 typedef struct s_data
@@ -59,7 +61,7 @@ float angle(float angle_player);
 int zero_infinity(float angle, t_data *game);
 void get_lines(t_data *game);
 void dda(t_data *game);
-void update_dda(float distance_x, float distance_y, t_data *game);
+int update_dda(float distance_x, float distance_y, t_data *game);
 float calculate_distance_to_wall(t_data *game);
 bool is_equal(float a, float b);
 void update_dda_backward(float distance_x, float distance_y, t_data *game);
@@ -67,3 +69,6 @@ int quadrant_of_angle(float angle_player);
 int border_point(int step, bool direction_negative);
 void horizontal_intersection(t_data *game, float angle_d);
 void vertical_intersection(t_data *game, float angle);
+int is_wall_up(t_data *game, int start_x, int start_y);
+int is_wall_left(t_data *game, int start_x, int start_y);
+int is_wall_right(t_data *game, int start_x, int start_y);
