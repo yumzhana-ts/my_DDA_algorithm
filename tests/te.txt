@@ -1,0 +1,215 @@
+/* /************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 0.6;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 0.8;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 5 *****************/
+
+	reset_values(&game);
+	game.player_angle = 1.0;
+	printf(BOLD_GREY"\nTest case 5\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 6 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 1.2;
+	printf(BOLD_GREY"\nTest case 6\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 1.4;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 1.6;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 1.8;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 2.0;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 5 *****************/
+
+	reset_values(&game);
+	game.player_angle = 2.2;
+	printf(BOLD_GREY"\nTest case 5\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 6 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 2.4;
+	printf(BOLD_GREY"\nTest case 6\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 2.6;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 2.8;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 3.0;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 5 *****************/
+
+	reset_values(&game);
+	game.player_angle = 3.2;
+	printf(BOLD_GREY"\nTest case 5\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 6 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 3.4;
+	printf(BOLD_GREY"\nTest case 6\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 3.6;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 3.8;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 4.0;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 5 *****************/
+
+	reset_values(&game);
+	game.player_angle = 4.2;
+	printf(BOLD_GREY"\nTest case 5\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 6 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 4.4;
+	printf(BOLD_GREY"\nTest case 6\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 4.6;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 4.8;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 5.0;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 5 *****************/
+
+	reset_values(&game);
+	game.player_angle = 5.2;
+	printf(BOLD_GREY"\nTest case 5\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 6 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 5.4;
+	printf(BOLD_GREY"\nTest case 6\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 5.6;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 5.8;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 7 *****************/
+
+ 	reset_values(&game);
+	game.player_angle = 6.0;
+	printf(BOLD_GREY"\nTest case 7\n\n"RESET_COLOR);
+    dda(&game);
+
+/************** TEST CASE 5 *****************/
+
+	reset_values(&game);
+	game.player_angle = 6.2;
+	printf(BOLD_GREY"\nTest case 5\n\n"RESET_COLOR);
+    dda(&game);
+ */
